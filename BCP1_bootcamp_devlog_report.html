@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BCP1 Bootcamp - Báo cáo Devlog & GitHub</title>
+<style>
+:root { --navy:#17324D; --teal:#0F766E; --amber:#C77D00; --red:#B42318; --ink:#111827; --muted:#64748B; --line:#CBD5E1; --paper:#F8FAFC; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:Arial,Helvetica,sans-serif; line-height:1.45; }
+.page { max-width:1180px; margin:0 auto; padding:34px 30px 60px; background:#fff; }
+.masthead { border-bottom:4px solid var(--teal); padding-bottom:20px; margin-bottom:24px; }
+h1 { margin:0; color:var(--navy); font-size:30px; letter-spacing:.2px; }
+h2 { margin:34px 0 12px; color:var(--navy); font-size:21px; border-left:5px solid var(--teal); padding-left:10px; }
+h3 { color:var(--navy); margin:20px 0 8px; }
+.meta { display:flex; gap:26px; flex-wrap:wrap; color:var(--muted); margin-top:8px; font-size:13px; }
+.lead { font-size:16px; max-width:920px; }
+.kpis { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; margin:18px 0; }
+.kpi { border:1px solid var(--line); border-top:4px solid var(--teal); padding:14px; background:#fff; }
+.kpi .label { color:var(--muted); font-size:12px; }
+.kpi .value { color:var(--navy); font-size:25px; font-weight:700; margin-top:5px; }
+.charts { display:grid; grid-template-columns:1.4fr 1fr; gap:16px; align-items:center; }
+.chart { border:1px solid var(--line); padding:12px; background:#fff; }
+table { width:100%; border-collapse:collapse; font-size:12px; margin:10px 0 18px; }
+th { background:var(--navy); color:#fff; text-align:left; padding:8px; }
+td { border-bottom:1px solid #E2E8F0; padding:7px 8px; vertical-align:top; }
+tr:nth-child(even) td { background:#F8FAFC; }
+.muted { color:var(--muted); }
+.note { border-left:4px solid var(--amber); background:#FFF8E7; padding:12px 14px; margin:12px 0; }
+.warning { border-left:4px solid var(--red); background:#FFF1F2; padding:12px 14px; margin:12px 0; }
+a { color:#0563C1; word-break:break-word; }
+.small { font-size:12px; color:var(--muted); }
+@media (max-width:800px) { .kpis,.charts { grid-template-columns:1fr; } .page { padding:20px 14px 40px; } table { display:block; overflow-x:auto; white-space:nowrap; } }
+@media print { body { background:#fff; } .page { max-width:none; padding:0; } a { color:#000; text-decoration:none; } }
+</style>
+</head>
+<body>
+<main class="page">
+<header class="masthead">
+  <h1>BCP1 Bootcamp</h1>
+  <div class="lead">Báo cáo theo dõi Devlog và bài tập GitHub</div>
+  <div class="meta"><span>Snapshot: <strong>21/10/2026</strong></span><span>Phạm vi: Buổi 1–7</span><span>Nguồn: Google Sheet + GitHub</span></div>
+</header>
+
+<section>
+<h2>Tóm tắt điều hành</h2>
+<p>Snapshot hiện có <strong>21 học viên</strong>. Sheet đã ghi nhận submission cho <strong>Buổi 1 – Blockchain Fundamentals</strong>; các buổi 2–7 đã có khung chương trình nhưng chưa có dữ liệu submission trong bản snapshot này.</p>
+<div class="kpis">
+  <div class="kpi"><div class="label">Devlog Buổi 1</div><div class="value">11/21 · 52.4%</div></div>
+  <div class="kpi"><div class="label">Link GitHub</div><div class="value">10/21 · 47.6%</div></div>
+  <div class="kpi"><div class="label">Nộp đủ cả hai</div><div class="value">10/21 · 47.6%</div></div>
+  <div class="kpi"><div class="label">TB hoàn thành/người</div><div class="value">7.0%</div></div>
+</div>
+<div class="charts">
+  <div class="chart"><svg viewBox="0 0 780 300" role="img" aria-label="Submission rates"><line x1="70" y1="245.0" x2="760" y2="245.0" stroke="#E2E8F0"/><text x="60" y="249.0" text-anchor="end" font-size="11" fill="#475569">0%</text><line x1="70" y1="203.0" x2="760" y2="203.0" stroke="#E2E8F0"/><text x="60" y="207.0" text-anchor="end" font-size="11" fill="#475569">10%</text><line x1="70" y1="161.0" x2="760" y2="161.0" stroke="#E2E8F0"/><text x="60" y="165.0" text-anchor="end" font-size="11" fill="#475569">21%</text><line x1="70" y1="119.0" x2="760" y2="119.0" stroke="#E2E8F0"/><text x="60" y="123.0" text-anchor="end" font-size="11" fill="#475569">31%</text><line x1="70" y1="77.0" x2="760" y2="77.0" stroke="#E2E8F0"/><text x="60" y="81.0" text-anchor="end" font-size="11" fill="#475569">42%</text><line x1="70" y1="35.0" x2="760" y2="35.0" stroke="#E2E8F0"/><text x="60" y="39.0" text-anchor="end" font-size="11" fill="#475569">52%</text><rect x="103.1" y="35.0" width="71.8" height="210.0" rx="3" fill="#0F766E"/><text x="139.0" y="27.0" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">52.4%</text><text x="139.0" y="273" text-anchor="middle" font-size="11" fill="#475569">Devlog</text><rect x="241.1" y="54.1" width="71.8" height="190.9" rx="3" fill="#17324D"/><text x="277.0" y="46.1" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">47.6%</text><text x="277.0" y="273" text-anchor="middle" font-size="11" fill="#475569">GitHub</text><rect x="379.1" y="54.1" width="71.8" height="190.9" rx="3" fill="#3B82F6"/><text x="415.0" y="46.1" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">47.6%</text><text x="415.0" y="273" text-anchor="middle" font-size="11" fill="#475569">Đủ 2</text><rect x="517.1" y="225.9" width="71.8" height="19.1" rx="3" fill="#C77D00"/><text x="553.0" y="217.9" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">4.8%</text><text x="553.0" y="273" text-anchor="middle" font-size="11" fill="#475569">Devlog only</text><rect x="655.1" y="54.1" width="71.8" height="190.9" rx="3" fill="#B42318"/><text x="691.0" y="46.1" text-anchor="middle" font-size="12" font-weight="700" fill="#111827">47.6%</text><text x="691.0" y="273" text-anchor="middle" font-size="11" fill="#475569">Chưa nộp</text></svg></div>
+  <div class="chart"><svg viewBox="0 0 420 280" role="img" aria-label="Submission status distribution"><path d="M 125 140 L 125.0 54.0 A 86 86 0 0 1 137.8 225.0 Z" fill="#0F766E" stroke="#FFFFFF" stroke-width="2"/><path d="M 125 140 L 137.8 225.0 A 86 86 0 0 1 112.2 225.0 Z" fill="#C77D00" stroke="#FFFFFF" stroke-width="2"/><path d="M 125 140 L 112.2 225.0 A 86 86 0 0 1 125.0 54.0 Z" fill="#B42318" stroke="#FFFFFF" stroke-width="2"/><circle cx="125" cy="140" r="48" fill="#FFFFFF"/><text x="125" y="136" text-anchor="middle" font-size="23" font-weight="700" fill="#17324D">21</text><text x="125" y="157" text-anchor="middle" font-size="11" fill="#64748B">học viên</text><rect x="245" y="65" width="12" height="12" rx="2" fill="#0F766E"/><text x="266" y="76" font-size="12" fill="#334155">Devlog + GitHub</text><text x="395" y="76" text-anchor="end" font-size="12" font-weight="700" fill="#17324D">10 (47.6%)</text><rect x="245" y="103" width="12" height="12" rx="2" fill="#C77D00"/><text x="266" y="114" font-size="12" fill="#334155">Devlog only</text><text x="395" y="114" text-anchor="end" font-size="12" font-weight="700" fill="#17324D">1 (4.8%)</text><rect x="245" y="141" width="12" height="12" rx="2" fill="#B42318"/><text x="266" y="152" font-size="12" fill="#334155">Chưa nộp</text><text x="395" y="152" text-anchor="end" font-size="12" font-weight="700" fill="#17324D">10 (47.6%)</text></svg></div>
+</div>
+<div class="note"><strong>Chỉ số bổ sung:</strong> 21 artifact trên 42 artifact kỳ vọng, tương đương <strong>50.0%</strong>. Trong 10 link GitHub, 9 link trỏ thẳng đến file; 9 file link trả HTTP 200 tại thời điểm kiểm tra. Có <strong>43</strong> commit quan sát được trong phạm vi repo/đường dẫn đã link; con số này không đánh giá chất lượng bài.</div>
+</section>
+
+<section>
+<h2>Lịch trình bootcamp</h2>
+<table><thead><tr><th>Buổi</th><th>Chủ đề</th><th>Thời gian</th><th>Người trình bày</th><th>Trạng thái nguồn</th><th>Devlog</th><th>GitHub</th><th>Tỷ lệ artifact</th><th>Diễn giải</th></tr></thead><tbody><tr><td>1</td><td>Blockchain Fundamentals</td><td>14/10/2026</td><td>Hoang Phong</td><td>START</td><td>11/21</td><td>10/21</td><td>50.0%</td><td>Quan sát được trong snapshot</td></tr><tr><td>2</td><td>How Blockchain Works</td><td>21/10/2026</td><td>Hoang Phong</td><td>START</td><td>—</td><td>—</td><td>—</td><td>Chưa có trong snapshot</td></tr><tr><td>3</td><td>Cryptography &amp; Wallet</td><td>Chưa chốt</td><td>Ngô Văn Tuân</td><td>START</td><td>—</td><td>—</td><td>—</td><td>Chưa có trong snapshot</td></tr><tr><td>4</td><td>Consensus &amp; Blockchain Architecture</td><td>Chưa chốt</td><td>Ngô Văn Tuân</td><td>START</td><td>—</td><td>—</td><td>—</td><td>Chưa có trong snapshot</td></tr><tr><td>5</td><td>Smart Contracts &amp; Digital Assets</td><td>Chưa chốt</td><td>Trần Hữu Hưng</td><td>START</td><td>—</td><td>—</td><td>—</td><td>Chưa có trong snapshot</td></tr><tr><td>6</td><td>DApps &amp; Web3 Ecosystem</td><td>Chưa chốt</td><td>Trần Hữu Hưng</td><td>START</td><td>—</td><td>—</td><td>—</td><td>Chưa có trong snapshot</td></tr><tr><td>7</td><td>Practice + AMA</td><td>Chưa chốt</td><td>Cả 3</td><td>START</td><td>—</td><td>—</td><td>—</td><td>Chưa có trong snapshot</td></tr></tbody></table>
+</section>
+
+<section>
+<h2>Chi tiết học viên và lịch sử GitHub</h2>
+<p class="small">“Commit quan sát” là số commit trả về cho file được link (hoặc repo-level link nếu Sheet chỉ ghi repo). Thời gian hiển thị theo GMT+7.</p>
+<table><thead><tr><th>STT</th><th>Học viên</th><th>Devlog</th><th>GitHub</th><th>Trạng thái</th><th>Hoàn thành</th><th>Link/repo</th><th>Commit</th><th>Khoảng thời gian commit (GMT+7)</th><th>Ghi chú</th></tr></thead><tbody><tr><td>1</td><td><strong>Lê Ngọc</strong><br><span class='muted'>Ngocngoc</span></td><td>Có</td><td>Có</td><td>Devlog + GitHub</td><td>14.0%</td><td><a href="https://github.com/ngocngoc000-jpg/Blockchain-01/blob/main/Session%20-01.md?plain=1" target="_blank" rel="noopener">ngocngoc000-jpg/Blockchain-01</a></td><td>14</td><td>20/10/2026 03:14 → 20/10/2026 14:56</td><td></td></tr><tr><td>2</td><td><strong>Đỗ Duy Hiếu</strong><br><span class='muted'>nomnom</span></td><td>Có</td><td>Có</td><td>Devlog + GitHub</td><td>14.0%</td><td><a href="https://github.com/dhyeu04/dev-lock-bootcamp/blob/main/submissions/session-01.md" target="_blank" rel="noopener">dhyeu04/dev-lock-bootcamp</a></td><td>4</td><td>20/10/2026 17:27 → 20/10/2026 17:50</td><td></td></tr><tr><td>3</td><td><strong>Nguyễn An Dương</strong><br><span class='muted'>An Dương</span></td><td>Không</td><td>Không</td><td>No submission</td><td>0.0%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>4</td><td><strong>Lê Hoàng Linh</strong><br><span class='muted'>ahhhhh3128</span></td><td>Có</td><td>Có</td><td>Devlog + GitHub</td><td>14.0%</td><td><a href="https://github.com/luckylinhle110297-prog/L-Ho-ng-Linh-bootcamp/blob/main/submissions/luckylinhle110297-prog/session-01.md" target="_blank" rel="noopener">luckylinhle110297-prog/L-Ho-ng-Linh-bootcamp</a></td><td>2</td><td>20/10/2026 17:46 → 20/10/2026 23:53</td><td></td></tr><tr><td>5</td><td><strong>CHU AN BÌNH</strong><br><span class='muted'>An Bình Chu</span></td><td>Có</td><td>Có</td><td>Devlog + GitHub</td><td>14.0%</td><td><a href="https://github.com/AnBinhChu/Bu-i-1-Blockchain-Fundamentals/blob/main/submissions/AnBinhChu/session-01.md" target="_blank" rel="noopener">AnBinhChu/Bu-i-1-Blockchain-Fundamentals</a></td><td>4</td><td>18/10/2026 23:51 → 20/10/2026 00:54</td><td></td></tr><tr><td>6</td><td><strong>Vũ Trung Hiếu</strong><br><span class='muted'>hiuce</span></td><td>Có</td><td>Có</td><td>Devlog + GitHub</td><td>14.0%</td><td><a href="https://github.com/trghieu03/bootcamp-devlog/blob/main/submissions/trghieu03/session-01.md" target="_blank" rel="noopener">trghieu03/bootcamp-devlog</a></td><td>2</td><td>21/10/2026 10:01 → 21/10/2026 10:15</td><td></td></tr><tr><td>7</td><td><strong>Chu Thị Hương</strong><br><span class='muted'>_huonie._</span></td><td>Có</td><td>Có</td><td>Devlog + GitHub</td><td>14.0%</td><td><a href="https://github.com/huoniie/dev-lock-bootcamp/blob/main/submissions/session-01.md" target="_blank" rel="noopener">huoniie/dev-lock-bootcamp</a></td><td>9</td><td>19/10/2026 23:43 → 20/10/2026 14:32</td><td></td></tr><tr><td>8</td><td><strong>Trần Đình Nam</strong><br><span class='muted'>Trần Đình Nam</span></td><td>Không</td><td>Không</td><td>No submission</td><td>0.0%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>9</td><td><strong>Nguyễn Anh Tuấn</strong><br><span class='muted'>sanomanji3635</span></td><td>Không</td><td>Không</td><td>No submission</td><td>0.0%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>10</td><td><strong>Nguyễn Anh Khôi</strong><br><span class='muted'>_kanguye.ne__37020</span></td><td>Không</td><td>Không</td><td>No submission</td><td>0.0%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>11</td><td><strong>Nguyễn Minh Hiếu</strong><br><span class='muted'>Myname1sH1u</span></td><td>Có</td><td>Có</td><td>Devlog + GitHub</td><td>14.0%</td><td><a href="https://github.com/MynameisHiu/Dev-Log-bootcamp/blob/main/submissions/MynameisHiu/session-01.md" target="_blank" rel="noopener">MynameisHiu/Dev-Log-bootcamp</a></td><td>2</td><td>20/10/2026 01:19 → 20/10/2026 01:22</td><td></td></tr><tr><td>12</td><td><strong>Nguyễn Anh Khoa</strong><br><span class='muted'>Nguyenkhoa</span></td><td>Không</td><td>Không</td><td>No submission</td><td>0.0%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>13</td><td><strong>Phạm Tuấn Kiệt</strong><br><span class='muted'>ĂngKiệt</span></td><td>Không</td><td>Không</td><td>No submission</td><td>0.0%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>14</td><td><strong>Thân Gia Khánh</strong><br><span class='muted'>Giakhanh_1002</span></td><td>Không</td><td>Không</td><td>No submission</td><td>0.0%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>15</td><td><strong>Nguyễn Xuân Đại</strong><br><span class='muted'>dainx.</span></td><td>Có</td><td>Có</td><td>Devlog + GitHub</td><td>14.0%</td><td><a href="https://github.com/dainx06/dev-lock-bootcamp/blob/main/submissions/dainx06/session-01.md" target="_blank" rel="noopener">dainx06/dev-lock-bootcamp</a></td><td>3</td><td>21/10/2026 11:49 → 21/10/2026 12:00</td><td></td></tr><tr><td>16</td><td><strong>Phạm Văn Giáp</strong><br><span class='muted'>Giapi9</span></td><td>Không</td><td>Không</td><td>No submission</td><td>0.0%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>17</td><td><strong>Bùi Minh An</strong><br><span class='muted'>các anh bt rồi</span></td><td>Không</td><td>Không</td><td>No submission</td><td>0.0%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>18</td><td><strong>Nguyễn Anh Tuấn</strong><br><span class='muted'>sanomanji3536</span></td><td>Có</td><td>Có</td><td>Devlog + GitHub</td><td>14.0%</td><td><a href="https://github.com/Tuan2K7/dev-lock-bootcamp.git" target="_blank" rel="noopener">Tuan2K7/dev-lock-bootcamp</a></td><td>1</td><td>14/10/2026 20:11 → 14/10/2026 20:11</td><td>Repo-level link; only the sample path examples/student-demo/session-01.md was detected.</td></tr><tr><td>19</td><td><strong>Nguyễn Phương Thảo</strong><br><span class='muted'>Thảo</span></td><td>Không</td><td>Không</td><td>No submission</td><td>0.0%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>20</td><td><strong>Ánh</strong><br><span class='muted'>Ánh</span></td><td>Có</td><td>Không</td><td>Devlog only</td><td>7.0%</td><td>—</td><td>—</td><td>—</td><td>Có devlog trong Sheet nhưng chưa có link GitHub.</td></tr><tr><td>21</td><td><strong>Bảo Khanh</strong><br><span class='muted'>Bảo Khanh</span></td><td>Có</td><td>Có</td><td>Devlog + GitHub</td><td>14.0%</td><td><a href="https://github.com/khanhnguyeenx-vie/dev-lock-bootcamp/blob/main/submissions/khanhnguyeenx-vie/session-01.md" target="_blank" rel="noopener">khanhnguyeenx-vie/dev-lock-bootcamp</a></td><td>2</td><td>20/10/2026 23:26 → 20/10/2026 23:31</td><td></td></tr></tbody></table>
+</section>
+
+<section>
+<h2>Nguồn và giới hạn</h2>
+<ul>
+<li>Google Sheet: <a href="https://docs.google.com/spreadsheets/d/1HKSoMEhSCYqL6Py5u5LB1rrh9yxlXRT-vgjRrb2HBW8/edit?gid=1890794766" target="_blank" rel="noopener">mở bảng dữ liệu gốc</a>.</li>
+<li>Repo tổng được yêu cầu: <a href="https://github.com/Blockchain-Pioneer-Student/BCP1-Devlog-Summarize" target="_blank" rel="noopener">https://github.com/Blockchain-Pioneer-Student/BCP1-Devlog-Summarize</a>. Tại snapshot, URL trả 404 nên không dùng làm nguồn số liệu.</li>
+<li>Các buổi 2–7 được ghi “chưa có dữ liệu trong snapshot”, không được diễn giải thành “không có hoạt động”.</li>
+<li>Không lưu thông tin đăng nhập, SSH key hay token trong báo cáo.</li>
+</ul>
+<div class="warning"><strong>Lưu ý khi nộp:</strong> báo cáo này phản ánh đúng dữ liệu chụp ngày 21/10/2026. Khi có submission các buổi tiếp theo, cần cập nhật lại Sheet và chạy lại báo cáo để đường biểu đồ theo buổi phản ánh đầy đủ.</div>
+</section>
+</main>
+</body>
+</html>
