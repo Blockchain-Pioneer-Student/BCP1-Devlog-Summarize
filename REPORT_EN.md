@@ -7,7 +7,7 @@
 
 ## 1. Executive Summary
 
-This report evaluates the recorded devlog and GitHub submissions for the BCP1 Bootcamp cohort using the tracking sheet and the GitHub links entered by participants.
+This report evaluates the recorded devlog and GitHub submissions for the BCP1 Bootcamp cohort using the bootcamp tracking sheet and the GitHub links entered by participants.
 
 At the reporting snapshot:
 
@@ -16,7 +16,7 @@ At the reporting snapshot:
 - **10 participants** submitted both required artifacts.
 - **1 participant** submitted a devlog without a GitHub link.
 - **10 participants** have no submission recorded in the source sheet.
-- The resulting artifact completion rate is **21 / 42 = 50.0%**.
+- The recorded artifact completion rate is **21 / 42 = 50.0%**.
 - The linked GitHub targets contain **43 observed commits** in total. This is an activity trace, not a quality score.
 
 The source sheet contains populated submission fields for Session 1 only. Sessions 2–7 are reported as `N/A` where no submission data is present.
@@ -25,19 +25,17 @@ The source sheet contains populated submission fields for Session 1 only. Sessio
 
 | Source | Use |
 |---|---|
-| [Bootcamp tracking Google Sheet](https://docs.google.com/spreadsheets/d/1HKSoMEhSCYqL6Py5u5LB1rrh9yxlXRT-vgjRrb2HBW8/edit?gid=1890794766) | Participant roster, submission flags, session plan, completion percentages |
-| [Participant GitHub links](https://github.com/Blockchain-Pioneer-Student/BCP1-Devlog-Summarize/blob/main/github_evidence.json) | Repository/file validation and commit-history evidence |
-| [HTML report](./BCP1_bootcamp_devlog_report.html) | Printable visual report |
-| [Excel workbook](./BCP1_bootcamp_devlog_report.xlsx) | Dashboard, formulas, tables and charts |
+| [Bootcamp tracking Google Sheet](https://docs.google.com/spreadsheets/d/1HKSoMEhSCYqL6Py5u5LB1rrh9yxlXRT-vgjRrb2HBW8/edit?gid=1890794766) | Participant roster, submission flags, session plan and completion percentages |
+| [BCP1 reporting repository](https://github.com/Blockchain-Pioneer-Student/BCP1-Devlog-Summarize) | Publication location for this report |
 
-The report was generated from a snapshot taken on **21 October 2026**. No credentials, SSH keys or access tokens are stored in this repository.
+The report was generated from a snapshot taken on **21 October 2026**. No credentials, SSH keys or access tokens are stored in the repository.
 
 ## 3. Methodology
 
 1. Read the participant roster and submission flags from the source sheet.
 2. Classified each participant as `Devlog + GitHub`, `Devlog only`, or `No submission`.
 3. Checked each submitted GitHub URL against the linked repository or file.
-4. Counted commits returned for the linked file path; for the one repo-level URL, the repository-level history is reported and is explicitly marked as repo-level evidence.
+4. Counted commits returned for the linked file path; the one repository-level URL is explicitly marked as repository-level evidence.
 5. Converted GitHub timestamps to GMT+7 for the participant register.
 6. Left unpopulated sessions as `N/A` instead of inferring a zero.
 
@@ -55,21 +53,6 @@ The report was generated from a snapshot taken on **21 October 2026**. No creden
 | Recorded artifacts | 21 | 50.0% |
 | Average completion per participant (source sheet) | — | 7.1% |
 | Observed commits across linked targets | 43 | — |
-
-```mermaid
-pie title Participant status
-    "Devlog + GitHub" : 10
-    "Devlog only" : 1
-    "No submission recorded" : 10
-```
-
-```mermaid
-xychart-beta
-    title "Recorded submission rates — Session 1"
-    x-axis ["Devlog", "GitHub", "Both", "Devlog only", "No submission"]
-    y-axis "Percent" 0 --> 100
-    bar [52.4, 47.6, 47.6, 4.8, 47.6]
-```
 
 ## 5. Session Timeline and Data Availability
 
@@ -89,27 +72,27 @@ xychart-beta
 
 | # | Participant | Devlog | GitHub | Source completion | Repository | Observed commits | Commit window |
 |---:|---|:---:|:---:|---:|---|---:|---|
-| 1 | Lê Ngọc | Yes | Yes | 14% | [ngocngoc000-jpg/Blockchain-01](https://github.com/ngocngoc000-jpg/Blockchain-01) | 14 | 2026-10-20 → 2026-10-20 |
-| 2 | Đỗ Duy Hiếu | Yes | Yes | 14% | [dhyeu04/dev-lock-bootcamp](https://github.com/dhyeu04/dev-lock-bootcamp) | 4 | 2026-10-20 → 2026-10-20 |
+| 1 | Lê Ngọc | Yes | Yes | 14% | [Blockchain-01](https://github.com/ngocngoc000-jpg/Blockchain-01) | 14 | 2026-10-20 → 2026-10-20 |
+| 2 | Đỗ Duy Hiếu | Yes | Yes | 14% | [dev-lock-bootcamp](https://github.com/dhyeu04/dev-lock-bootcamp) | 4 | 2026-10-20 → 2026-10-20 |
 | 3 | Nguyễn An Dương | No | No | 0% | — | 0 | — |
-| 4 | Lê Hoàng Linh | Yes | Yes | 14% | [luckylinhle110297-prog/L-Ho-ng-Linh-bootcamp](https://github.com/luckylinhle110297-prog/L-Ho-ng-Linh-bootcamp) | 2 | 2026-10-20 → 2026-10-20 |
-| 5 | CHU AN BÌNH | Yes | Yes | 14% | [AnBinhChu/Bu-i-1-Blockchain-Fundamentals](https://github.com/AnBinhChu/Bu-i-1-Blockchain-Fundamentals) | 4 | 2026-10-18 → 2026-10-20 |
-| 6 | Vũ Trung Hiếu | Yes | Yes | 14% | [trghieu03/bootcamp-devlog](https://github.com/trghieu03/bootcamp-devlog) | 2 | 2026-10-21 → 2026-10-21 |
-| 7 | Chu Thị Hương | Yes | Yes | 14% | [huoniie/dev-lock-bootcamp](https://github.com/huoniie/dev-lock-bootcamp) | 9 | 2026-10-19 → 2026-10-20 |
+| 4 | Lê Hoàng Linh | Yes | Yes | 14% | [L-Ho-ng-Linh-bootcamp](https://github.com/luckylinhle110297-prog/L-Ho-ng-Linh-bootcamp) | 2 | 2026-10-20 → 2026-10-20 |
+| 5 | CHU AN BÌNH | Yes | Yes | 14% | [Bu-i-1-Blockchain-Fundamentals](https://github.com/AnBinhChu/Bu-i-1-Blockchain-Fundamentals) | 4 | 2026-10-18 → 2026-10-20 |
+| 6 | Vũ Trung Hiếu | Yes | Yes | 14% | [bootcamp-devlog](https://github.com/trghieu03/bootcamp-devlog) | 2 | 2026-10-21 → 2026-10-21 |
+| 7 | Chu Thị Hương | Yes | Yes | 14% | [dev-lock-bootcamp](https://github.com/huoniie/dev-lock-bootcamp) | 9 | 2026-10-19 → 2026-10-20 |
 | 8 | Trần Đình Nam | No | No | 0% | — | 0 | — |
 | 9 | Nguyễn Anh Tuấn | No | No | 0% | — | 0 | — |
 | 10 | Nguyễn Anh Khôi | No | No | 0% | — | 0 | — |
-| 11 | Nguyễn Minh Hiếu | Yes | Yes | 14% | [MynameisHiu/Dev-Log-bootcamp](https://github.com/MynameisHiu/Dev-Log-bootcamp) | 2 | 2026-10-20 → 2026-10-20 |
+| 11 | Nguyễn Minh Hiếu | Yes | Yes | 14% | [Dev-Log-bootcamp](https://github.com/MynameisHiu/Dev-Log-bootcamp) | 2 | 2026-10-20 → 2026-10-20 |
 | 12 | Nguyễn Anh Khoa | No | No | 0% | — | 0 | — |
 | 13 | Phạm Tuấn Kiệt | No | No | 0% | — | 0 | — |
 | 14 | Thân Gia Khánh | No | No | 0% | — | 0 | — |
-| 15 | Nguyễn Xuân Đại | Yes | Yes | 14% | [dainx06/dev-lock-bootcamp](https://github.com/dainx06/dev-lock-bootcamp) | 3 | 2026-10-21 → 2026-10-21 |
+| 15 | Nguyễn Xuân Đại | Yes | Yes | 14% | [dev-lock-bootcamp](https://github.com/dainx06/dev-lock-bootcamp) | 3 | 2026-10-21 → 2026-10-21 |
 | 16 | Phạm Văn Giáp | No | No | 0% | — | 0 | — |
 | 17 | Bùi Minh An | No | No | 0% | — | 0 | — |
-| 18 | Nguyễn Anh Tuấn | Yes | Yes | 14% | [Tuan2K7/dev-lock-bootcamp](https://github.com/Tuan2K7/dev-lock-bootcamp) | 1 | 2026-10-14 → 2026-10-14 |
+| 18 | Nguyễn Anh Tuấn | Yes | Yes | 14% | [dev-lock-bootcamp](https://github.com/Tuan2K7/dev-lock-bootcamp) | 1 | 2026-10-14 → 2026-10-14 |
 | 19 | Nguyễn Phương Thảo | No | No | 0% | — | 0 | — |
 | 20 | Ánh | Yes | No | 7% | — | 0 | — |
-| 21 | Bảo Khanh | Yes | Yes | 14% | [khanhnguyeenx-vie/dev-lock-bootcamp](https://github.com/khanhnguyeenx-vie/dev-lock-bootcamp) | 2 | 2026-10-20 → 2026-10-20 |
+| 21 | Bảo Khanh | Yes | Yes | 14% | [dev-lock-bootcamp](https://github.com/khanhnguyeenx-vie/dev-lock-bootcamp) | 2 | 2026-10-20 → 2026-10-20 |
 
 ## 7. GitHub Evidence Audit
 
@@ -139,15 +122,5 @@ The source sheet contains 10 GitHub links. Nine are file-level links that return
 
 - Blank submission fields for Sessions 2–7 are reported as `N/A`, not as zero.
 - The GitHub audit validates the URLs and available history at snapshot time; it does not grade content correctness.
-- The repo-level link for Nguyễn Anh Tuấn does not identify a student-specific `session-01.md` file.
+- The repository-level link for Nguyễn Anh Tuấn does not identify a student-specific `session-01.md` file.
 - Participant names and Discord names are reproduced from the source sheet; no additional identity data was inferred.
-
-## 10. Reproducibility
-
-The repository includes:
-
-- `BCP1_bootcamp_devlog_report.xlsx` — formula-based workbook and charts.
-- `BCP1_bootcamp_devlog_report.html` — printable visual report.
-- `github_evidence.json` — GitHub evidence snapshot used for the audit.
-
-The report should be regenerated after the tracking sheet is updated with Sessions 2–7 submissions.
