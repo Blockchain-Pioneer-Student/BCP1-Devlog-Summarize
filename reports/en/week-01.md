@@ -34,17 +34,17 @@ The submitted devlogs cover the origin and purpose of blockchain, core concepts 
 
 | # | Participant | Devlog topics recorded | GitHub evidence | Observed history |
 |---:|---|---|---|---|
-| 1 | Lê Ngọc | Why blockchain emerged; Bitcoin advantages and disadvantages | [Session 1 file](https://github.com/ngocngoc000-jpg/Blockchain-01/blob/main/Session%20-01.md) | 14 commits; 20 Oct |
-| 2 | Đỗ Duy Hiếu | Blockchain definition and models; Bitcoin pros/cons; real-world applications | [Session 1 file](https://github.com/dhyeu04/dev-lock-bootcamp/blob/main/submissions/session-01.md) | 4 commits; 20 Oct |
-| 4 | Lê Hoàng Linh | Blockchain concept | [Session 1 file](https://github.com/luckylinhle110297-prog/L-Ho-ng-Linh-bootcamp/blob/main/submissions/luckylinhle110297-prog/session-01.md) | 2 commits; 20 Oct |
-| 5 | CHU AN BÌNH | Blockchain concept; centralized/decentralized models; Bitcoin; applications | [Session 1 file](https://github.com/AnBinhChu/Bu-i-1-Blockchain-Fundamentals/blob/main/submissions/AnBinhChu/session-01.md) | 5 commits; 18–22 Oct |
-| 6 | Vũ Trung Hiếu | Blockchain concept and models; Bitcoin; Ethereum/smart contracts; applications | [Session 1 file](https://github.com/trghieu03/bootcamp-devlog/blob/main/submissions/trghieu03/session-01.md) | 2 commits; 21 Oct |
-| 7 | Chu Thị Hương | Blockchain concept; relationship between Bitcoin and blockchain | [Session 1 file](https://github.com/huoniie/dev-lock-bootcamp/blob/main/submissions/session-01.md) | 15 commits; 19–22 Oct |
-| 11 | Nguyễn Minh Hiếu | Blockchain origins and mechanism; immutability; models; generations; DeFi | [Session 1 file](https://github.com/MynameisHiu/Dev-Log-bootcamp/blob/main/submissions/MynameisHiu/session-01.md) | 2 commits; 20 Oct |
-| 15 | Nguyễn Xuân Đại | Blockchain fundamentals and models; Bitcoin pros/cons | [Session 1 file](https://github.com/dainx06/dev-lock-bootcamp/blob/main/submissions/dainx06/session-01.md) | 3 commits; 21 Oct |
-| 18 | Nguyễn Anh Tuấn | Blockchain concept, history, applications and types | [Repository-level link](https://github.com/Tuan2K7/dev-lock-bootcamp) | 1 repository commit; 14 Oct |
+| 1 | Lê Ngọc | Why blockchain emerged; Bitcoin advantages and disadvantages | [https://github.com/ngocngoc000-jpg/Blockchain-01/blob/main/Session%20-01.md?plain=1](https://github.com/ngocngoc000-jpg/Blockchain-01/blob/main/Session%20-01.md?plain=1) | 14 commits; 20 Oct |
+| 2 | Đỗ Duy Hiếu | Blockchain definition and models; Bitcoin pros/cons; real-world applications | [https://github.com/dhyeu04/dev-lock-bootcamp/blob/main/submissions/session-01.md](https://github.com/dhyeu04/dev-lock-bootcamp/blob/main/submissions/session-01.md) | 4 commits; 20 Oct |
+| 4 | Lê Hoàng Linh | Blockchain concept | [https://github.com/luckylinhle110297-prog/L-Ho-ng-Linh-bootcamp/blob/main/submissions/luckylinhle110297-prog/session-01.md](https://github.com/luckylinhle110297-prog/L-Ho-ng-Linh-bootcamp/blob/main/submissions/luckylinhle110297-prog/session-01.md) | 2 commits; 20 Oct |
+| 5 | CHU AN BÌNH | Blockchain concept; centralized/decentralized models; Bitcoin; applications | [https://github.com/AnBinhChu/Bu-i-1-Blockchain-Fundamentals/blob/main/submissions/AnBinhChu/session-01.md](https://github.com/AnBinhChu/Bu-i-1-Blockchain-Fundamentals/blob/main/submissions/AnBinhChu/session-01.md) | 5 commits; 18–22 Oct |
+| 6 | Vũ Trung Hiếu | Blockchain concept and models; Bitcoin; Ethereum/smart contracts; applications | [https://github.com/trghieu03/bootcamp-devlog/blob/main/submissions/trghieu03/session-01.md](https://github.com/trghieu03/bootcamp-devlog/blob/main/submissions/trghieu03/session-01.md) | 2 commits; 21 Oct |
+| 7 | Chu Thị Hương | Blockchain concept; relationship between Bitcoin and blockchain | [https://github.com/huoniie/dev-lock-bootcamp/blob/main/submissions/session-01.md](https://github.com/huoniie/dev-lock-bootcamp/blob/main/submissions/session-01.md) | 15 commits; 19–22 Oct |
+| 11 | Nguyễn Minh Hiếu | Blockchain origins and mechanism; immutability; models; generations; DeFi | [https://github.com/MynameisHiu/Dev-Log-bootcamp/blob/main/submissions/MynameisHiu/session-01.md](https://github.com/MynameisHiu/Dev-Log-bootcamp/blob/main/submissions/MynameisHiu/session-01.md) | 2 commits; 20 Oct |
+| 15 | Nguyễn Xuân Đại | Blockchain fundamentals and models; Bitcoin pros/cons | [https://github.com/dainx06/dev-lock-bootcamp/blob/main/submissions/dainx06/session-01.md](https://github.com/dainx06/dev-lock-bootcamp/blob/main/submissions/dainx06/session-01.md) | 3 commits; 21 Oct |
+| 18 | Nguyễn Anh Tuấn | Blockchain concept, history, applications and types | [https://github.com/Tuan2K7/dev-lock-bootcamp.git](https://github.com/Tuan2K7/dev-lock-bootcamp.git) | 1 repository commit; 14 Oct |
 | 20 | Ánh | Blockchain definition and history; Bitcoin | No GitHub URL recorded | — |
-| 21 | Bảo Khanh | Blockchain concept and types; Bitcoin pros/cons; applications | [Session 1 file](https://github.com/khanhnguyeenx-vie/dev-lock-bootcamp/blob/main/submissions/khanhnguyeenx-vie/session-01.md) | 2 commits; 20 Oct |
+| 21 | Bảo Khanh | Blockchain concept and types; Bitcoin pros/cons; applications | [https://github.com/khanhnguyeenx-vie/dev-lock-bootcamp/blob/main/submissions/khanhnguyeenx-vie/session-01.md](https://github.com/khanhnguyeenx-vie/dev-lock-bootcamp/blob/main/submissions/khanhnguyeenx-vie/session-01.md) | 2 commits; 20 Oct |
 
 ### No Submission Recorded
 

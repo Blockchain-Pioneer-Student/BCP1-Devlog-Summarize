@@ -7,9 +7,9 @@
 
 ## Executive Summary
 
-The current roster contains 22 participants. The sheet records 10 Session 2 devlogs and 8 non-empty GitHub cells. One of those GitHub cells contains only `session-02`, not a URL. Therefore, seven GitHub URLs can be audited: six direct file links returned HTTP 200 and one valid URL points to a repository.
+The current roster contains 22 participants. The sheet records 10 Session 2 devlogs and 8 GitHub hyperlinks. One cell displays the label `session-02`; its underlying hyperlink points to the Session 2 file. All 8 destinations can be audited: 7 direct file links returned HTTP 200, and one link points to a repository.
 
-Seven participants have both a devlog and a valid GitHub URL. One additional devlog has a non-URL value in its GitHub cell, two devlogs have no GitHub entry, and 12 participants have no submission recorded for this session.
+Eight participants have both a devlog and a GitHub link. Two devlogs have no GitHub link, and 12 participants have no submission recorded for this session.
 
 ## Key Metrics
 
@@ -17,20 +17,18 @@ Seven participants have both a devlog and a valid GitHub URL. One additional dev
 |---|---:|
 | Participants in current roster | 22 |
 | Devlogs recorded | 10 / 22 (45.5%) |
-| Non-empty GitHub cells in source sheet | 8 / 22 (36.4%) |
-| Valid GitHub URLs | 7 / 22 (31.8%) |
-| File-level links verified | 6 / 6 returned HTTP 200 |
+| GitHub hyperlinks in source sheet | 8 / 22 (36.4%) |
+| File-level links verified | 7 / 7 returned HTTP 200 |
 | Repository-level links | 1 |
-| Non-URL GitHub cell | 1 (`session-02`) |
-| Devlogs paired with a valid URL | 7 / 22 (31.8%) |
-| Devlog with a non-URL GitHub value | 1 |
-| Devlog without a GitHub entry | 2 |
+| Link label displayed as text | 1 (`session-02`) |
+| Devlogs paired with a GitHub link | 8 / 22 (36.4%) |
+| Devlog without a GitHub link | 2 |
 | No submission recorded | 12 / 22 (54.5%) |
 | Non-empty source fields | 18 / 44 expected (40.9%) |
-| Validated artifacts | 17 / 44 expected (38.6%) |
-| Observed commits on linked targets | 25 |
+| Validated artifacts | 18 / 44 expected (40.9%) |
+| Observed commits on linked targets | 39 |
 
-“Non-empty source fields” follows the sheet's recorded values. “Validated artifacts” excludes the `session-02` placeholder because it is not a GitHub URL. The artifact rate measures submission coverage, not content quality.
+“Non-empty source fields” follows the values and hyperlinks in the sheet. The `session-02` label is counted as a GitHub link because its underlying hyperlink resolves to the submission file. The artifact rate measures submission coverage, not content quality.
 
 ## Learning Record
 
@@ -38,15 +36,15 @@ The submitted devlogs cover block and blockchain structure, transactions, ledger
 
 | # | Participant | Devlog topics recorded | GitHub evidence | Observed history |
 |---:|---|---|---|---|
-| 1 | Lê Ngọc | Block/blockchain structure; transactions; ledger/state; nodes/P2P; lifecycle; search/explorer | [Repository-level link](https://github.com/lngoccccccc07000/Sessions02How-Blockchain-works) | 7 repository commits; 27–28 Oct |
-| 2 | Đỗ Duy Hiếu | Structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [Session 2 file](https://github.com/dhyeu04/dev-lock-bootcamp/blob/main/submissions/session-02.md) | 5 commits; 26 Oct |
-| 5 | CHU AN BÌNH | Blockchain/block structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [Session 2 file](https://github.com/AnBinhChu/Bu-i-1-Blockchain-Fundamentals/blob/main/submissions/AnBinhChu/session-02.md) | 4 commits; 22 Oct |
-| 6 | Vũ Trung Hiếu | Block/chain structure; transactions, ledger/state; nodes/P2P; lifecycle; explorer | [Session 2 file](https://github.com/trghieu03/bootcamp-devlog/blob/main/submissions/trghieu03/session-02.md) | 2 commits; 21–22 Oct |
-| 7 | Chu Thị Hương | Structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | GitHub cell contains `session-02`, not a URL | Not auditable |
-| 11 | Nguyễn Minh Hiếu | Structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [Session 2 file](https://github.com/MynameisHiu/Dev-Log-bootcamp/blob/main/submissions/MynameisHiu/session-02.md) | 1 commit; 25 Oct |
-| 15 | Nguyễn Xuân Đại | Structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [Session 2 file](https://github.com/dainx06/dev-lock-bootcamp/blob/main/submissions/dainx06/session-02.md) | 3 commits; 28 Oct |
+| 1 | Lê Ngọc | Block/blockchain structure; transactions; ledger/state; nodes/P2P; lifecycle; search/explorer | [https://github.com/lngoccccccc07000/Sessions02How-Blockchain-works](https://github.com/lngoccccccc07000/Sessions02How-Blockchain-works) | 7 repository commits; 27–28 Oct |
+| 2 | Đỗ Duy Hiếu | Structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [https://github.com/dhyeu04/dev-lock-bootcamp/blob/main/submissions/session-02.md](https://github.com/dhyeu04/dev-lock-bootcamp/blob/main/submissions/session-02.md) | 5 commits; 26 Oct |
+| 5 | CHU AN BÌNH | Blockchain/block structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [https://github.com/AnBinhChu/Bu-i-1-Blockchain-Fundamentals/blob/main/submissions/AnBinhChu/session-02.md](https://github.com/AnBinhChu/Bu-i-1-Blockchain-Fundamentals/blob/main/submissions/AnBinhChu/session-02.md) | 4 commits; 22 Oct |
+| 6 | Vũ Trung Hiếu | Block/chain structure; transactions, ledger/state; nodes/P2P; lifecycle; explorer | [https://github.com/trghieu03/bootcamp-devlog/blob/main/submissions/trghieu03/session-02.md](https://github.com/trghieu03/bootcamp-devlog/blob/main/submissions/trghieu03/session-02.md) | 2 commits; 21–22 Oct |
+| 7 | Chu Thị Hương | Structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [session-02](https://github.com/huoniie/dev-lock-bootcamp/blob/main/submissions/session-02.md) | 14 commits; 22–27 Oct |
+| 11 | Nguyễn Minh Hiếu | Structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [https://github.com/MynameisHiu/Dev-Log-bootcamp/blob/main/submissions/MynameisHiu/session-02.md](https://github.com/MynameisHiu/Dev-Log-bootcamp/blob/main/submissions/MynameisHiu/session-02.md) | 1 commit; 25 Oct |
+| 15 | Nguyễn Xuân Đại | Structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [https://github.com/dainx06/dev-lock-bootcamp/blob/main/submissions/dainx06/session-02.md](https://github.com/dainx06/dev-lock-bootcamp/blob/main/submissions/dainx06/session-02.md) | 3 commits; 28 Oct |
 | 20 | Ánh | Ledger/state; nodes/P2P; four-step transaction lifecycle; explorer | No GitHub URL recorded | — |
-| 21 | Bảo Khanh | Structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [Session 2 file](https://github.com/khanhnguyeenx-vie/dev-lock-bootcamp/blob/main/submissions/khanhnguyeenx-vie/session-02.md) | 3 commits; 27 Oct |
+| 21 | Bảo Khanh | Structure; transactions; ledger/state; nodes/P2P; lifecycle; explorer | [https://github.com/khanhnguyeenx-vie/dev-lock-bootcamp/blob/main/submissions/khanhnguyeenx-vie/session-02.md](https://github.com/khanhnguyeenx-vie/dev-lock-bootcamp/blob/main/submissions/khanhnguyeenx-vie/session-02.md) | 3 commits; 27 Oct |
 | 22 | Nguyễn Thanh Nga | Block/blockchain; transactions; ledger/state; nodes/P2P; explorer; lifecycle | No GitHub URL recorded | — |
 
 ### No Submission Recorded
@@ -55,11 +53,11 @@ Nguyễn An Dương, Lê Hoàng Linh, Trần Đình Nam, Nguyễn Anh Tuấn (Di
 
 ## GitHub Audit and Interpretation
 
-- The source sheet has eight non-empty GitHub cells; seven contain usable GitHub URLs.
-- Six URL entries identify a `session-02.md` file and each file returned HTTP 200.
+- The source sheet has eight GitHub hyperlinks, seven displayed as full URLs and one displayed as `session-02`.
+- Seven hyperlinks identify a `session-02.md` file and each file returned HTTP 200.
 - Lê Ngọc's valid URL points to a repository dedicated to Session 2, not a specific file; its seven commits are repository-level history.
-- Chu Thị Hương's `session-02` value is treated as a malformed/missing URL, not as a validated GitHub submission.
-- The 25 observed commits are an audit trace on the linked targets, not a grading measure. Some commits occurred after the session date.
+- Chu Thị Hương's cell displays `session-02`, and its underlying hyperlink points to the file shown in the participant register.
+- The 39 observed commits are an audit trace on the linked targets, not a grading measure. Some commits occurred after the session date.
 
 ## Cohort Context
 
